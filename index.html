@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="portal-header">
+        <div class="container header-inner">
+            <a class="portal-logo" href="#">NAVER</a>
+            <form id="search-form" class="search" role="search">
+                <input id="search-input" type="text" placeholder="검색어를 입력하세요" aria-label="Search" />
+                <button type="submit">검색</button>
+            </form>
+            <nav class="quick-links">
+                <a href="#">메일</a>
+                <a href="#">카페</a>
+                <a href="#">블로그</a>
+                <a href="#">쇼핑</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="portal-main container">
+        <section class="grid">
+            <div class="col left">
+                <div class="module news">
+                    <h2>뉴스</h2>
+                    <ul>
+                        <li><a href="#">헤드라인 1</a></li>
+                        <li><a href="#">헤드라인 2</a></li>
+                        <li><a href="#">헤드라인 3</a></li>
+                        <li><a href="#">헤드라인 4</a></li>
+                    </ul>
+                </div>
+                <div class="module trending">
+                    <h2>실시간 급상승</h2>
+                    <ol>
+                        <li><a href="#">키워드 1</a></li>
+                        <li><a href="#">키워드 2</a></li>
+                        <li><a href="#">키워드 3</a></li>
+                        <li><a href="#">키워드 4</a></li>
+                    </ol>
+                </div>
+            </div>
+            <aside class="col right">
+                <div class="module login">
+                    <h3>네이버 로그인</h3>
+                    <button class="login-btn">로그인</button>
+                    <div class="login-links">
+                        <a href="#">아이디 찾기</a>
+                        <a href="#">비밀번호 찾기</a>
+                        <a href="#">회원가입</a>
+                    </div>
+                </div>
+                <div class="module weather">
+                    <h3>날씨</h3>
+                    <p>서울 23°C, 맑음</p>
+                </div>
+                <div class="module finance">
+                    <h3>증권</h3>
+                    <ul class="ticker">
+                        <li><span>KOSPI</span><strong>2,650.32</strong><em class="up">+0.84%</em></li>
+                        <li><span>KOSDAQ</span><strong>870.12</strong><em class="down">-0.23%</em></li>
+                        <li><span>USD/KRW</span><strong>1,341.20</strong><em class="up">+0.12%</em></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+
+        <section class="module shopping">
+            <h2>쇼핑</h2>
+            <div class="products">
+                <a class="product" href="#"><img src="https://picsum.photos/seed/p1/200/160" alt=""><span>여름 반팔 티셔츠</span><strong>₩19,900</strong></a>
+                <a class="product" href="#"><img src="https://picsum.photos/seed/p2/200/160" alt=""><span>슬림 핏 청바지</span><strong>₩39,000</strong></a>
+                <a class="product" href="#"><img src="https://picsum.photos/seed/p3/200/160" alt=""><span>무선 이어폰</span><strong>₩79,000</strong></a>
+                <a class="product" href="#"><img src="https://picsum.photos/seed/p4/200/160" alt=""><span>게이밍 마우스</span><strong>₩49,000</strong></a>
+            </div>
+        </section>
+
+        <section class="module sports">
+            <h2>스포츠</h2>
+            <ul class="matches">
+                <li><span>KBO</span> 두산 3 - 2 LG <em>종료</em></li>
+                <li><span>EPL</span> 토트넘 1 - 1 아스널 <em>전반 45'</em></li>
+                <li><span>LCK</span> T1 vs GEN <em>오늘 19:00</em></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="portal-footer">
+        <div class="container">
+            <small>© 2025 Portal</small>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
